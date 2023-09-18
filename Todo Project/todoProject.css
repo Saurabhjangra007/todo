@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  min-height: 60vh;
+  background: linear-gradient(rgba(12, 11, 11, 0.827), rgb(0, 0, 0)), url(1.png);
+  background-position: center;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  max-height: 1200px;
+  margin: auto;
+  width: 90%;
+}
+.nav {
+  min-height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items {
+  width: 40%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+.headline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  display: inline-block;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.btn-headline {
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.section-todo {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.form-todo {
+  min-height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.form-todo input {
+  min-height: 100%;
+}
+
+.form-todo input[type="text"] {
+  width: 78%;
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+.form-todo input[type="submit"] {
+  width: 20%;
+  background-color: rgb(44, 55, 63);
+  color: white;
+  font-weight: bold;
+}
+.section-signup {
+  margin-top: 5rem;
+  text-align: center;
+  background: rgba(38, 36, 36, 0.244);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 5rem auto;
+}
+.signup-form {
+  max-width: 800px;
+  width: 95%;
+  text-align: left;
+  margin: auto;
+}
+.signup-form label {
+  display: block;
+}
+.signup-form input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+}
+.form-group {
+  margin-top: 1rem;
+}
+.signup-form textarea {
+  width: 100%;
+  padding: 1rem;
+}
+.signup-btn {
+  background-color: rgb(44, 55, 63);
+  padding: 1rem 2rem;
+  display: block;
+  color: white;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.todo-btn {
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer; 
+  border-radius: 2px;
+}
+.output-data button {
+  padding: 10px 10px;
+  background-color: rgb(44, 55, 63);
+  color: white;
+  border-radius: 2px;
+}
+.todo-list{
+  text-align: left;
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+.todo-list li{
+  padding: 0.7rem;
+  background-color: #444;
+  color: white;
+  margin-top: 1rem;
+  text-transform: capitalize;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+}
+span{
+
+}
